@@ -8,7 +8,7 @@ var form = Ti.UI.createScrollView({
 	showVerticalScrollIndicator: false,
 	visible: false
 });
-win.add(form);
+Ti.UI.currentWindow.add(form);
 
 var data = {};
 
