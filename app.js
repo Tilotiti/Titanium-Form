@@ -1,3 +1,5 @@
+Ti.include('/createLabel.js');
+
 var form = Ti.UI.createScrollView({
 	width: 320,
 	top: 30,
